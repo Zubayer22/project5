@@ -1,0 +1,349 @@
+*{
+	margin: 0;
+	font-family: arial;
+}
+
+/*header start*/
+header{
+	background-color: #121B2A;
+	box-shadow: 20px 0px 10px #0A111B;
+	
+	
+
+}
+.wrapper{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+
+}
+.logo{
+	width: 20%;
+	float: left;
+
+
+}
+.logo img{
+	width: 100%;
+	
+}
+.menu{
+	margin-top: 40px;
+	width: 70%;
+	float: right;
+
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+	float: left;
+
+}
+.menu ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 20px 25px;
+	transition: .5s;
+	display: block;
+	font-size: 20px;
+
+}
+.menu ul li a:hover{
+	color: blue;
+
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+
+}
+
+/*header end*/
+
+/*banner start*/
+.banner{
+	
+	background: url(../images/cover.jpg);
+	background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.b_content{
+	width: 60%;
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
+.b_content h2{
+	font-family:sans-serif; 
+	font-size:35px; 
+	color:white;
+	margin: 10px 0px 0;
+
+}
+.b_content h1{
+	font-family:sans-serif;
+	font-size:45px; 
+	color:#0475B8;
+	margin: 0px;
+}
+.b_content p{
+	font-family:sans-serif;
+	font-size:15px; 
+	color:white;
+	margin: 10px 0px 0px;
+}
+.b_content button{
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 28px;
+	color: #5A5A5A;
+	width: 250px;
+	height: 38px;
+	background-color: white;
+	border-radius: 5px;
+}
+.b_content button:focus{
+	outline: none;
+
+}
+.icon{
+	background-color: blue;
+	margin-left: 20px;
+}
+.b_content button:hover{
+	color: #121B2A;
+}
+/*banner end*/
+
+
+/*service section start*/
+.services{
+	background-color: #121B2C; 
+	min-height: 400px;
+
+}
+
+.service_1{
+	width: 30%;
+	display: inline-block;
+	padding: 100px 15px 15px 15px;
+
+}
+.service_1 h1{
+	display: inline-block;
+	color: white;
+    
+
+}
+.service_1 h2{
+	color: #046985;
+
+}
+.service_1 p{
+	margin-top: 30px;
+    color: white;
+    border-right: 2px solid #17202F;
+
+
+}
+.service_2{
+	width: 30%;
+	display: inline-block;
+	padding: 100px 15px 15px 15px;
+
+
+}
+.service_2 h1{
+	display: inline-block;
+	color: white;
+}
+.service_2 h2{
+	color: #046985;
+
+}
+.service_2 p{
+	margin-top: 30px;
+    color: white;
+     border-right: 2px solid #17202F;
+    
+
+}
+
+.service_3{
+	width: 30%;
+	display: inline-block;
+	padding: 100px 15px 15px 15px;
+
+
+}
+.service_3 h1{
+	display: inline-block;
+	color: white;
+}
+.service_3 h2{
+	color: #046985;
+	display: inline-block;
+
+}
+.service_3 p{
+	margin-top: 30px;
+    color: white;
+
+}
+
+
+
+/*service section end*/
+
+/*Contact section start*/
+.contact{
+	background-color: #040811;
+	min-height: 300px;
+
+
+}
+.contact_1{
+	width: 30%;
+	display: inline-block;
+	padding: 15px;
+	
+	
+}
+.contact_1 h1{
+	color: white;
+	display: inline-block;
+
+
+}
+.contact_1 h2{
+	color: #0174B7;
+	display: inline-block;
+}
+.contact_1 p{
+	color: white;
+}
+.contact_1 address{
+	color: white;
+	padding: 20px;
+}
+.contact_2{
+	width: 30%;
+	display: inline-block;
+	padding: 15px;
+
+	
+}
+.contact_2 h1{
+	color: white;
+	display: inline-block;
+	font-size: 25px;
+
+}
+.contact_2 h2{
+	color: #0174B7;
+	display: inline-block;
+
+}
+.contact_2 p{
+	color: white;
+	margin-top: 10px;
+
+}
+
+.contact_3{
+	width: 30%;
+	display: inline-block;
+	padding: 15px;
+	margin-top: 50px;
+
+	
+}
+.picture{
+	width: 40%;
+	float: left;
+}
+.link{
+	width: 50%;
+	float: right;
+	margin-top: 30px;
+}
+.contact_3 img{
+	width: 80%;
+
+}
+
+.contact_3 h1{
+	color: white;
+	display: inline;
+}
+.contact_3 h2{
+	color: #0174B7;
+	display: block;
+}
+.contact_3 button{
+	margin: 20px;
+
+}
+.contact_3 button a{
+	text-decoration: none;
+	
+}
+/*Contact section end*/
+
+/*footer section start*/
+
+
+.footer{
+	background-color: #121B2C;
+	min-height: 100px;
+}
+.menu2{
+	width: 60%;
+	float: left;
+	margin-top: 30px;
+
+}
+.menu2 ul{
+	list-style: none;
+	
+
+}
+.menu2 ul li{
+	float: left;
+
+}
+.menu2 ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+	transition: .5s;
+	display: block;
+	font-size: 16px;
+}
+
+.menu2 ul li a:hover{
+	color: blue;
+
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu2 p{
+	color: white;
+	padding-left: 55px;
+}
+
+.footer_icon{
+	width: 25%;
+	float: right;
+}
+.footer_icon img{
+	width: 100%;
+	margin-top: 20px;
+
+}
+
+/*footer section end*/
